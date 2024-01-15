@@ -1,60 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Faster</title>
-    <link rel="stylesheet" href="main.css">
-<link rel="icon" href="icon.png"><link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
-    />
 
-    
-
-    <script>
-      window.console = window.console || function (t) {};
-    </script>
-
-    <script>
-      if (document.location.search.match(/type=embed/gi)) {
-        window.parent.postMessage("resize", "*");
-      }
-    </script>
-  </head>
-
-  <body translate="no">
-    <div id="game">
-      <div id="road">
-        <div id="cloud"></div>
-        <div id="hero"></div>
-      </div>
-
-      <div id="hud">
-        <span id="time" class="topUI">0</span>
-        <span id="score" class="topUI">0</span>
-        <span id="lap" class="topUI">0'00"000</span>
-        <span id="tacho">0</span>
-      </div>
-
-      <div id="home">
-        <h1>Faster!</h1>
-        <p id="text"></p>
-
-        <div id="highscore"></div>
-      </div>
-    </div>
-
-    <div id="controls">
-      <span><span>C</span>insert coin</span>
-      <span><span>M</span>mute</span>
-      <span><span>&lt;</span><span>&gt;</span>move</span>
-      <span><span>&lt;</span><span>&gt;</span>accelerate</span>
-    </div>
-    <script src="javascript/1.js"></script>
-
-    <script id="rendered-js">
       // -------------------------------------------------------------------------------------------------
-      // assets
+      // assets                                    BACKUP CODE
       // -------------------------------------------------------------------------------------------------
 
       const ASSETS = {
@@ -778,7 +724,4 @@
 
       init();
       //# sourceURL=pen.js
-    </script>
-    <script src="javascript/null.js"></script>
-  </body>
-</html>
+    

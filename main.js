@@ -403,3 +403,5 @@ InfiniteRunner.draw = function () {
 };
 
 InfiniteRunner.resize = function () {};
+
+
